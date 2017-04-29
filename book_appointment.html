@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book An Appointment</title>
+</head>
+<body>
+<div>
+<h1>Book an Appointment at the Barbershop!</h1>
+ <img src="/Users/sarahschaab/Desktop/sarah-schaab.github.io/barbershop_interior.png">  <img src="/Users/sarahschaab/Desktop/sarah-schaab.github.io/barber2.png"><br><br>
+</div>
+<table border="1">
+<th>Book An Appointment!</th>
+</table>
+
+<p>Book an appointment online by filling out the form, below!</p>
+<div>
+
+<br>
+  <form name="barberappointment" action="https://httpbin.org/post" method="post">
+    <label>Full Name</label>
+    <input type="text" name="fullname">
+    <br>
+    <label>Select a Service</label>
+    <select name="select_service">
+    <option value="-1">Select a Service</option>
+    <option>Haircut</option>
+    <option>Beard Trim</option>
+    <option>Haircut & Beard Trim</option>
+    <option>Straight Razor Shave</option>
+    <option>Haircut & Straight Razor Shave</option>
+    </select>
+    <div>
+    <label>Choose a date:</label>
+    <input type="date" name="date">
+    <br>
+    <label>Choose a Time:</label>
+    <input type="time" name="time">
+    </div>
+    <button type="submit">Book this Appointment!</button>
+  </form>
+</div>
+<div>
+<br>
+<br>
+<table border="1">
+      <tr>
+      <th colspan="2">Call, Email, or Stop by with your questions</th>
+      </tr>
+    <tr>
+      <td>Call</td>
+      <td>(484) 832-0896</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>sarahschaab@me.com</td>
+    </tr>
+      <tr>
+      <td>Address</td>
+      <td>169 Diamond St. Brooklyn, NY, 11222</td>
+    </tr>
+</table>
+</div>
+
+</p>
+
+
+
+    <nav>
+      <ul>
+      <li><a href="index.html">Return Home</a></li>
+      <li><strong>Book an appointment</strong></li>
+      </ul>
+    </nav>
+</body>
+</html>
