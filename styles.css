@@ -1,3 +1,6 @@
+* {
+  font-family: times;
+}
 
 body {
   max-width: 960px;
@@ -10,13 +13,46 @@ main {
   padding: 4px 4px;
 }
 
+
+ #navbar ul {
+    margin: 20px;
+    padding: 20px;
+    cellspacing: 0;
+    cellpadding: 0;
+    border: 0;
+    border-width: 2px;
+    border-style: solid;
+    list-style-type: none;
+    background-color: #7CD4F2;
+    text-align: center;
+    }
+
+#navbar ul li {
+    display: inline;
+    }
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: .2em 2em;
+    color: black;
+    background-color: #7CD4F2;
+    }
+
+#navbar ul li a:hover {
+    color: lightgray;
+    background-color: #7CD4F2;
+    }
+
 h1 {
-  font-family: helvetica;
-  font-color: Slate;
+  font-family: Times;
+  font-color: lightgray;
   text-align: center;
   border-width: 2px;
-  background-color: lightgray;
+  background-color: #5CA8D6;
   border-style: solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 
 }
 
