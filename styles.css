@@ -107,12 +107,25 @@ blockquote {
 
 #barberinfo {
   position: absolute;
+  text-align: center;
   margin: 20px;
   border-width: 1px;
-  padding: 20px;
+  padding: 80px;
   border-style: solid;
   background-color: rgb(210, 229, 240);
-  top: 140px;
+  top: 160px;
+  left: 280px;
+}
+
+#filler {
+  position: absolute;
+  text-align: center;
+  margin: 20px;
+  border-width: 1px;
+  padding: 80px;
+  border-style: solid;
+  background-color: rgb(210, 229, 240);
+  top: 460px;
   left: 280px;
 }
 
@@ -120,9 +133,9 @@ blockquote {
   position: absolute;
   margin: 20px;
   border-width: 1px;
-  padding: 20px;
+  padding: 80px;
   border-style: solid;
   background-color: rgb(210, 229, 240);
-  top: 300px;
+  top: 760px;
   left: 280px;
 }
