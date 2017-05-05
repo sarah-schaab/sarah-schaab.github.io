@@ -23,12 +23,12 @@ main {
     border-width: 2px;
     border-style: solid;
     list-style-type: none;
-    background-color: #7CD4F2;
+    background-color: rgb(90, 190, 190);
     text-align: center;
     position: absolute;
     right: 50px;
     left: 50px;
-    top: 100px;
+    top: 90px;
     z-index: 998;
 
     }
@@ -41,13 +41,13 @@ main {
     text-decoration: none;
     padding: .2em 2em;
     color: black;
-    background-color: #7CD4F2;
+    background-color: rgba(48, 159, 240, .1);
+
     }
 
 #navbar ul li a:hover {
     color: lightgray;
-    background-color: #7CD4F2;
-    }
+}
 
 h1 {
   font-family: Times;
@@ -56,8 +56,8 @@ h1 {
   border-width: 2px;
   background-color: #5CA8D6;
   border-style: solid;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 
 }
