@@ -63,10 +63,39 @@ h1 {
   z-index: 997;
 }
 
-blockquote {
+.parent {
+  position: absolute;
+  border-width: 1px;
+  background-color: white;
+  top: 140px;
+  left: 0px;
+  z-index: 0;
+}
+.img1 {
+  position: absolute;
+  margin: 35px;
+  border-width: 1px;
+  padding: 10px;
+  background-color: white;
+  top: 195px;
+  left: 75px;
+  z-index: 997;
+}
+.img2 {
   position: absolute;
   border-width: 1px;
   padding: 10px;
   background-color: white;
-
+  top: 195px;
+  left: 400px;
+  z-index: 997;
+}
+.img3 {
+  position: absolute;
+  border-width: 1px;
+  padding: 10px;
+  background-color: white;
+  top: 195px;
+  left: 555px;
+  z-index: 997;
 }
