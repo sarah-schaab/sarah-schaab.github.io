@@ -24,6 +24,7 @@ h1 {
 }
 
 #navbar ul {
+    font-family: Helvetica;
     margin: 10px;
     padding: 10px;
     cellspacing: 0;
@@ -63,10 +64,98 @@ h1 {
   z-index: 997;
 }
 
-blockquote {
+.parent {
+  position: absolute;
+  border-width: 1px;
+  background-color: white;
+  top: 140px;
+  left: 0px;
+  z-index: 0;
+}
+.img1 {
+  position: absolute;
+  margin: 35px;
+  border-width: 1px;
+  padding: 10px;
+  background-color: white;
+  top: 175px;
+  left: 100px;
+  z-index: 997;
+}
+.img2 {
   position: absolute;
   border-width: 1px;
   padding: 10px;
   background-color: white;
+  top: 195px;
+  left: 420px;
+  z-index: 997;
+}
+.img3 {
+  position: absolute;
+  border-width: 1px;
+  padding: 10px;
+  background-color: white;
+  top: 195px;
+  left: 750px;
+  z-index: 997;
+}
 
+#contactinfo {
+  font-family: Helvetica;
+  position: absolute;
+  text-align: center;
+  margin: 20px;
+  border-width: 1px;
+  padding: 50px;
+  border-style: solid;
+  background-color: rgb(210, 229, 240);
+  top: 650px;
+  left: 50px;
+}
+
+#form {
+  font-family: Helvetica;
+  position: absolute;
+  text-align: center;
+  margin: 20px;
+  border-width: 1px;
+  padding: 50px;
+  padding-bottom: 37px;
+  border-style: solid;
+  background-color: rgb(210, 229, 240);
+  top: 650px;
+  left: 500px;
+}
+#hours {
+  font-family: Helvetica;
+  position: absolute;
+  text-align: center;
+  list-style-type: none;
+  margin: 20px;
+  border-width: 1px;
+  padding: 50px;
+  border-style: solid;
+  background-color: rgb(210, 229, 240);
+  top: 450px;
+  left: 50px;
+}
+.title {
+  font-size: 18px;
+  font-style: bold;
+  text-decoration: underline;
+}
+
+#forminfo {
+  font-family: Helvetica;
+  position: absolute;
+  text-align: center;
+  list-style-type: none;
+  margin: 20px;
+  border-width: 1px;
+  padding: 60px;
+  border-style: solid;
+  background-color: rgb(210, 229, 240);
+  top: 450px;
+  left: 500px;
 }
