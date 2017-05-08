@@ -77,8 +77,8 @@ h1 {
   border-width: 1px;
   padding: 10px;
   background-color: white;
-  top: 195px;
-  left: 75px;
+  top: 175px;
+  left: 100px;
   z-index: 997;
 }
 .img2 {
@@ -87,7 +87,7 @@ h1 {
   padding: 10px;
   background-color: white;
   top: 195px;
-  left: 400px;
+  left: 420px;
   z-index: 997;
 }
 .img3 {
@@ -96,6 +96,7 @@ h1 {
   padding: 10px;
   background-color: white;
   top: 195px;
-  left: 555px;
+  left: 750px;
   z-index: 997;
 }
+
