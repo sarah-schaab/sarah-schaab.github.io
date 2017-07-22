@@ -1,99 +1,231 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>THE BARBER</title>
+    <title>SARAH SCHAAB</title>
+<!--
+Neaty HTML Template
+http://www.templatemo.com/tm-501-neaty
+-->
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
 
-  <!--Local -->
-  <!-- <link rel="stylesheet" href="/Users/sarahschaab/Desktop/sarah-schaab.github.io/styles.css" type="text/css"> -->
-
-  <!--github.io -->
-  <link rel="stylesheet" href="/styles.css" type="text/css">
-
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
 </head>
-<section>
-<body>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="tm-left-right-container">
+                    <!-- Left column: logo and menu -->
+                    <div class="tm-blue-bg tm-left-column">
+                        <div class="tm-logo-div text-xs-center">
+                            <img src="img/tm-neaty-logo.png" alt="Logo">
+                            <h1 class="tm-site-name">Neaty</h1>
+                        </div>
+                        <nav class="tm-main-nav">
+                            <ul class="tm-main-nav-ul">
+                                <li class="tm-nav-item">
+                                    <a href="#welcome" class="tm-nav-item-link">Welcome</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#about" class="tm-nav-item-link">About Us</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#galleryone" class="tm-nav-item-link">Gallery One</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#secondgallery" class="tm-nav-item-link">Second Gallery</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#thirdgallery" class="tm-nav-item-link">Third Gallery</a>
+                                </li>
+                                <li class="tm-nav-item">
+                                    <a href="#contact" class="tm-nav-item-link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div> <!-- Left column: logo and menu -->
 
-<h1>Sarah Schaab</h1>
-<!-- <p class ="info">A barber located in Brooklyn, NY</p> -->
+                    <!-- Right column: content -->
+                    <div class="tm-right-column">
+                        <figure>
+                            <img src="img/neaty-01.jpg" alt="Header image" class="img-fluid">
+                        </figure>
 
+                        <div class="tm-content-div">
+                            <!-- Welcome section -->
+                            <section id="welcome" class="tm-section">
+                                <header>
+                                    <h2 class="tm-blue-text tm-welcome-title tm-margin-b-45">Welcome to Neaty Design</h2>
+                                </header>
+                                <p>Neaty is simple and clean design HTML CSS template for any kind of website. Feel free to use this layout. Please tell your friends about templatemo website. Thank you. Suspendisse imperdiet, felis eu hendrerit pretium, sapien mauris blandit arcu, et accumsan neque est ut erat. Vivamus eget tellus euismod, interdum nibh at, eleifend justo. Quisque placerat ante in ex tempor, ultrices bibendum nunc finibus. Etiam luctus nec eros vel pulvinar.</p>
+                            </section>
+                            <!-- About section -->
+                            <section id="about" class="tm-section">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 push-lg-4 push-md-5">
+                                        <header>
+                                            <h2 class="tm-blue-text tm-section-title tm-margin-b-45">About the team</h2>
+                                        </header>
+                                        <p>Sed turpis nunc, laoreet sit amet fermentum sed, euismod ac justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                        <p>Donec ut lectus semper, sollicitudin risus blandit, mattis felis. Nam non malesuada odio. Vestibulum vaius, arcu eget rutrum consequat, arcu lacus imperdiet arcu, id pulvinar arcu erat vel magna.</p>
+                                        <p>Ut commodo malesuada eros, quis consequat ante tincidunt ut. Suspendisse malesuada augue vitae nisi sollicitudin placerat.</p>
+                                        <a href="#" class="tm-button tm-button-wide">Read More</a>
+                                    </div>
 
+                                    <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 pull-lg-8 pull-md-7 tm-about-img-container">
+                                        <img src="img/neaty-02.jpg" alt="Image" class="img-fluid">
+                                    </div>
+                                </div>
+                            </section>
 
-<section id="navigation">
-    <header>
-      <div id="navbar">
-      <nav>
-        <ul>
-        <li>Home</li>
-        <li><a href="book_appointment.html">Book an Appointment</a></li>
-        </ul>
-      </nav>
-     </div>
-    </header>
-</section>
+                            <!-- Gallery One section -->
+                            <section id="galleryone" class="tm-section">
+                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Gallery One</h2></header>
+                                <div class="tm-gallery-container tm-gallery-1">
+                                    <div class="tm-img-container tm-img-container-1">
+                                        <a href="img/neaty-03.jpg"><img src="img/neaty-03.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-1">
+                                        <a href="img/neaty-04.jpg"><img src="img/neaty-04.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-1">
+                                        <a href="img/neaty-05.jpg"><img src="img/neaty-05.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-1">
+                                        <a href="img/neaty-06.jpg"><img src="img/neaty-06.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-1">
+                                        <a href="img/neaty-07.jpg"><img src="img/neaty-07.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                </div>
+                            </section>
 
-<!--These are the images located in Index.html-->
-<div class="parent">
-<!--github.io -->
-<!-- <img src ="/Untitled_3.png"> -->
+                            <!-- Second Gallery section -->
+                            <section id="secondgallery" class="tm-section">
+                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Second Gallery</h2></header>
+                                <div class="tm-gallery-container tm-gallery-2">
+                                    <div class="tm-img-container tm-img-container-2">
+                                        <a href="img/neaty-08.jpg"><img src="img/neaty-08.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-2">
+                                        <a href="img/neaty-09.jpg"><img src="img/neaty-09.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-2">
+                                        <a href="img/neaty-10.jpg"><img src="img/neaty-10.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                </div>
+                            </section>
 
-<!--local -->
-<!-- <img src = "/Users/sarahschaab/Desktop/sarah-schaab.github.io/Untitled_3.png"> -->
-</div>
+                            <!-- Third Gallery section -->
+                            <section id="thirdgallery" class="tm-section">
+                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Third Gallery</h2></header>
+                                <div class="tm-gallery-container tm-gallery-3">
+                                    <div class="tm-img-container tm-img-container-3">
+                                        <a href="img/neaty-11.jpg"><img src="img/neaty-11.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-3">
+                                        <a href="img/neaty-12.jpg"><img src="img/neaty-12.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-3">
+                                        <a href="img/neaty-13.jpg"><img src="img/neaty-13.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                    <div class="tm-img-container tm-img-container-3">
+                                        <a href="img/neaty-14.jpg"><img src="img/neaty-14.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
+                                    </div>
+                                </div>
+                            </section>
 
-<div>
-<!--github.io -->
-<img class="img1" src="/nick.png">
+                            <!-- Contact Us section -->
+                            <section id="contact" class="tm-section">
+                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Contact Us</h2></header>
 
-<!--local -->
-<!-- <img class="img1" src = "/Users/sarahschaab/Desktop/sarah-schaab.github.io/nick.png"> -->
-</div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <form action="#contact" method="post" class="contact-form">
+                                            <div class="form-group">
+                                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                            </div>
+                                            <button type="submit" class="float-right tm-button">Send</button>
+                                        </form>
+                                    </div>
 
-<div>
-<!--github.io -->
-<img class="img2" src="/storm.png">
+                                    <div class="col-lg-6 tm-contact-right">
+                                        <p>
+                                        Nullam vivera fermentum purus id blandit. Phasellus lacus mi, porta vel sodales nec, faucibus non eros. Nulla at quam vel risus laoreet tincidunt in in sem.
+                                        </p>
+                                        <address>
+                                            11/22 Etiam mauris erat,<br>
+                                            Vestibulum eu augue nec, 10220<br>
+                                            Nam consequat
+                                        </address>
+                                    </div>
+                                </div>
 
-<!--local -->
-<!-- <img class="img2" src = "/Users/sarahschaab/Desktop/sarah-schaab.github.io/storm.png"> -->
-</div>
+                            </section>
 
-<div>
-<!--github.io -->
-<img class="img3" src="/dan.png">
+                        </div>
 
-<!--local -->
-<!-- <img class="img3" src = "/Users/sarahschaab/Desktop/sarah-schaab.github.io/dan.png"> -->
-</div>
+                    </div> <!-- Right column: content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
 
-<main>
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+        <script>
 
+            $(document).ready(function(){
 
-<blockquote id="barberinfo">
-  <p>
+                // Single page nav
+                $('.tm-main-nav').singlePageNav({
+                    'currentClass' : "active",
+                    offset : 20
+                });
 
-    The barbershop is located in Greenpoint, Brooklyn.
-    Get your hair cut by some of the top barbers in New York City. Whether you are changing styles or going with the "usual" these barbers know whats up.
- </p>
-</blockquote>
+                // Magnific pop up
+                $('.tm-gallery-1').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                });
 
-<blockquote id="filler">
- <p>
-  This is some filler information! I have nothing else to say yet, but when I do come up with something useful I will deffinetly put it in here! This is just to make the site look pretty.
-  </p>
-</blockquote>
+                $('.tm-gallery-2').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                });
 
+                $('.tm-gallery-3').magnificPopup({
+                  delegate: 'a', // child items selector, by clicking on it popup will open
+                  type: 'image',
+                  gallery: {enabled:true}
+                  // other options
+                });
 
-
-<blockquote id="compare">
-  <footer>
-   <a href="http://www.personsofinterestbklyn.com/">LINK TO WEBSITE TO COMPARE</a>
-
-
-    I think this is a great website for a barber shop. I was looking at their booking page and it has all of the elements that a booking page should have. A lot of the html elements are readable to me and make sense, but it looks like a lot of it is edited with javascript. I would like to learn javascript or ruby so that I can make a page similar to this (BUT BETTER)
-  </footer>
-</blockquote>
-</main>
-
+                $('.tm-current-year').text(new Date().getFullYear());
+            });
+        </script>
 </body>
-</section
 </html>
