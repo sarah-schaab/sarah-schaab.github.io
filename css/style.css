@@ -8,7 +8,7 @@ body {
 
 
 
-a, button { transition: all 0.3s ease; }
+a, button, b { transition: all 0.3s ease; }
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -27,13 +27,13 @@ a:focus {
 .tm-blue-bg a {	color: white; }
 
 .tm-site-name {
-	font-size: 4rem;
+	font-size: 6rem;
 	margin-top: 20px;
 }
 
 .tm-logo-div {
 	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .tm-main-nav { display: none; }
@@ -46,6 +46,7 @@ a:focus {
 
 .img-circle {
 		border-radius: 50%;
+		margin: 3em;
 }
 
 .tm-section { margin-bottom: 60px; }
