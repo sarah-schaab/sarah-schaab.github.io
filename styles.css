@@ -80,6 +80,9 @@ p { line-height: 2; }
 .tm-nav-item-link.active {
   color: #f4ef5e;
 }
+.resume{
+  width: 300px;
+}
 
 .tm-about-img-container { margin-top: 50px; }
 
